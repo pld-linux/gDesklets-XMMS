@@ -5,15 +5,16 @@ Summary:	A fancy desklet that allows you to control XMMS from the desktop
 Summary(pl):	Ozdobny desklet pozwalaj±cy sterowaæ XMMS-em z pulpitu
 Name:		gDesklets-%{pname}
 Version:	2
-Release:	3
+Release:	4
 License:	GPL
 Group:		X11/Applications
 Source0:	http://gdesklets.gnomedesktop.org/files/xmms-%{version}.tgz
 # Source0-md5:	64b17f0098fa30d45fc8fe0a6d519d43
 URL:		http://gdesklets.gnomedesktop.org/categories.php?func=gd_show_app&gd_app_id=42
-BuildRequires:	python >= 2.3
+BuildRequires:	python >= 1:2.3
 BuildRequires:	python-pygtk-gtk >= 1.99.14
 Requires:	gDesklets
+%pyrequires_eq	python-libs
 Requires:	python-xmms
 Provides:	gDesklets-display
 Provides:	gDesklets-sensor
