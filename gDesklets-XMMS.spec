@@ -10,7 +10,7 @@ Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://gdesklets.gnomedesktop.org/files/xmms-%{version}.tgz
-# Source0-md5:	2714260a2a82005a814db703cf2ea854
+# Source0-md5:	64b17f0098fa30d45fc8fe0a6d519d43
 URL:		http://gdesklets.gnomedesktop.org/categories.php?func=gd_show_app&gd_app_id=42
 BuildRequires:	python >= 2.3
 BuildRequires:	python-pygtk >= 1.99.14
